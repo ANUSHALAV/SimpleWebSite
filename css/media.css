@@ -1,0 +1,94 @@
+/* media query start here... */
+
+@media screen and (max-width:1400px){
+    .container{
+        margin-inline:30px;
+    }
+    .header-section .content h2{
+        font-size:2.2rem;
+    }
+    .header-section .content h3{
+        font-size:1.8rem;
+    }
+    .header-section .content p{
+        font-size:.9rem;
+    }
+
+    .main-section .content h3{
+        font-size:2rem;
+    }
+    .main-section .content p{
+        font-size:1rem;
+    }
+
+}
+
+
+
+@media screen and (max-width:1270px){
+    header .container h1{
+        text-align: center;
+    }
+
+    .header-section{
+        height:130vh;
+        justify-content: center;
+        padding:unset;
+        flex-direction: column-reverse;
+    }
+    .header-section .content{
+        width:80%;
+    }
+    .header-section .content h2{
+        width:100%;
+    }
+    .header-section .content h3{
+        width:100%;
+    }
+    .header-section .content p{
+        width:100%;
+    }
+
+    .main-section{
+        flex-direction: column;
+    }
+    .main-section .content h3{
+        width:140%;
+    }
+    .main-section .content p{
+        width:130%;
+    }
+
+    .footer-section{
+        flex-direction: column-reverse;
+    }
+    .footer-section .form-section{
+        width:80%;
+        margin-top:2%;
+    }
+    .footer-section .form-section input{
+        width:80%;
+        padding-block:2.5%;
+    }
+}
+
+
+@media screen and (max-width:750px){
+    .form-section{
+        width:100%;
+        /* height:20vh; */
+        
+    }
+    .form-section h3{
+        font-size:2rem;
+        margin-bottom:30px;
+
+    }
+    .form-section p{
+        font-size:1rem;
+        margin-bottom: 20px;
+    }
+    .form-section label{
+        font-size:1.2rem;
+    }
+}
